@@ -1,12 +1,13 @@
 # MessengerAngular8App
 
-### AWS Static Site Hosting
+### AWS Static Site Hosting and Code Pipeline
 
 * [Access AWS URL](http://messenger-angular8-app.s3-website-us-east-1.amazonaws.com/){:target="_blank"}
 * AWS Code Pipeline : messenger-app-continuous-deployment-pipeline
 * AWS S3 Bucket : messenger-angular8-app
 * [Build Specs for AWS](https://github.com/nitinkc/messages-app-angular8/blob/master/buildspec.yml)
 
+Just push the changes into the `master` branch and AWS Code Pipeline will pick up the changes and run the build.
 
 ## Development server
 Run `npm install` to install the project dependencies
