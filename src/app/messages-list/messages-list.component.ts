@@ -5,9 +5,9 @@ import { MessagesDataServiceService } from '../service/data/messages-data-servic
 export class Message {
   constructor(
     public id: number,
-    public description: string,
-    public targetDate: Date,
-    public isCompleted: boolean
+    public message: string,
+    public createdDate: Date,
+    public user: string
   ) { }
 }
 
@@ -25,6 +25,17 @@ export class MessagesListComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.refreshTodos();
+  }
+
+  refreshTodos() {
+    this.messagesService.retrieveAllTodos().subscribe(
+      response => {
+        this.messages = response;
+        console.log(response);
+      },
+      error => { }
+    )
   }
 
 }

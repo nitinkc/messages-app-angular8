@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:5000'
+  apiUrl: 'http://localhost:8080'
   //For H2-DB
   //apiUrl: 'http://todorestapi-env.rpzpu9tqns.us-east-1.elasticbeanstalk.com'
   //My SQL integrated Beanstalk managed
