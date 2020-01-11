@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'messenger-angular8-app';
+  name = 'messenger-angular8-app';
 }
