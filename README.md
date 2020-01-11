@@ -2,7 +2,7 @@
 
 ### AWS Static Site Hosting
 
-* [Access AWS URL](http://messenger-angular8-app.s3-website-us-east-1.amazonaws.com/)
+* [Access AWS URL](http://messenger-angular8-app.s3-website-us-east-1.amazonaws.com/){:target="_blank"}
 * AWS Code Pipeline : messenger-app-continuous-deployment-pipeline
 * AWS S3 Bucket : messenger-angular8-app
 * [Build Specs for AWS](https://github.com/nitinkc/messages-app-angular8/blob/master/buildspec.yml)
