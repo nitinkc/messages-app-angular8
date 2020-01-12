@@ -4,9 +4,11 @@
 
 export const environment = {
   production: false,
-  //apiUrl: 'http://localhost:8080'
+  apiUrl: 'http://localhost:8080'
+  
   //For H2-DB
-  apiUrl: 'http://messengerapp-env.us56ewjdta.us-east-1.elasticbeanstalk.com'
+  //apiUrl: 'http://messengerapp-env.us56ewjdta.us-east-1.elasticbeanstalk.com'
+  
   //My SQL integrated Beanstalk managed
   //apiUrl: 'http://todorestapi-env-qa-mysql.rpzpu9tqns.us-east-1.elasticbeanstalk.com/'
 };

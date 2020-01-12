@@ -9,6 +9,13 @@
 
 Just push the changes into the `master` branch and AWS Code Pipeline will pick up the changes and run the build.
 
+## Build woth multiple profile
+
+Use `ng build --configuration dev` to use dev profile
+
+angular.json is updated to have profiles of dev and qa. Dev has spring app port of 5000 to access the server.
+
+
 ## Development server
 Run `npm install` to install the project dependencies
 
